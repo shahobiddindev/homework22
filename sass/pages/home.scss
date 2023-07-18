@@ -1,0 +1,113 @@
+@use "../_global.scss";
+
+.home {
+   padding: 128px 0;
+   background-color: #1C1E53;
+
+   .row {
+      .col-12 {
+         h1 {
+            margin-bottom: 24px;
+            color: #FFF;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 74px;
+         }
+
+         p {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            opacity: 0.699999988079071;
+         }
+
+         img {
+            width: 100%;
+         }
+      }
+   }
+}
+
+.btn {
+   padding: 14px 56px;
+}
+
+.d-grid {
+   margin-top: 48px;
+}
+
+.home__right {
+   padding-top: 25px;
+}
+
+.project {
+   padding-top: 57px;
+
+   &__card {
+      padding-bottom: 104px;
+   }
+
+   &__card {
+      padding-top: 64px;
+   }
+}
+
+.col-12 {
+   img {
+      width: 100%;
+   }
+}
+
+.overflow {
+   display: none;
+}
+
+.features {
+   padding: 128px 0;
+   background: var(--grey, #F4F6FC);
+
+   &__container {
+      p {
+         color: var(--dark-blue, #282938);
+         text-align: center;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 28px;
+      }
+
+      h2 {
+         color: var(--dark-blue, #282938);
+         text-align: center;
+         font-size: 48px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 64px;
+      }
+   }
+}
+
+.card-title {
+   color: var(--dark-blue, #282938);
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 36px;
+}
+
+.card-text {
+   text-align: start;
+   color: var(--dark-blue, #282938);
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+   opacity: 0.699999988079071;
+}
+
+.features__cards {
+   padding-top: 47px;
+}
