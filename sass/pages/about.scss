@@ -1,0 +1,42 @@
+@use "../_global.scss";
+
+.team {
+   padding: 128px 0;
+   background: var(--grey, #F4F6FC);
+}
+
+.team__card {
+   padding: 48px 64px 32px;
+   width: 296px;
+   background-color: rgb(255, 255, 255);
+}
+
+.titels {
+   color: var(--dark-blue, #282938);
+   text-align: center;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 64px;
+   /* 133.333% */
+}
+
+.row {
+   padding-top: 48px;
+}
+
+.card {
+   padding: 24px 32px;
+}
+
+.card-text {
+   color: var(--b, #1D2130);
+   text-align: center;
+   /* Heading 6 */
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 36px;
+   /* 150% */
+}
