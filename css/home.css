@@ -120,3 +120,53 @@ header {
 .features__cards {
   padding-top: 47px;
 }
+
+.carusel {
+  padding: 128px 0;
+}
+
+.carousel-item img {
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-color: #1C1E53;
+}
+
+footer {
+  background-color: #1C1E53;
+  padding: 104px 0;
+}
+footer p {
+  color: var(--white, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8 11920929;
+}
+
+.connecting {
+  margin-top: 86px;
+  padding: 18px;
+  background-color: yellow;
+}
+.connecting .col-3 {
+  height: 66px;
+}
+.connecting .col-3 p {
+  text-align: center;
+  color: black;
+}
+
+.fined h2 {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.footer__width {
+  height: 50px;
+}
